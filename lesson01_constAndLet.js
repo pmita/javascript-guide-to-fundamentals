@@ -1,9 +1,7 @@
-//Variables in javascript and nay language are essentially a cell for us to store the data
+//Variables in javascript and any language are essentially a cell for us to store the data
 //we can then reference that data by using the variable name. In order for us to use variable correctly
-//however; we need to declare them.
-
-//Declaring variables lets our browser know in advance that we are dealing with them, and as such it
-//allocates some memory to those variables. 
+//however; we need to declare them. Declaring variables lets our browser know in advance 
+//that we are dealing with them, and as such it allocates some memory to those variables. 
 
 //We are usually either dealing with constant variables or intechangable variables. If we are dealing with variables
 //that their value is not changing throughout our code then we use the const key word.
