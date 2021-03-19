@@ -1,34 +1,42 @@
-//Variables in javascript and any language are essentially a cell for us to store the data
-//we can then reference that data by using the variable name. In order for us to use variable correctly
-//however; we need to declare them. Declaring variables lets our browser know in advance 
-//that we are dealing with them, and as such it allocates some memory to those variables. 
+//Variables essentially a cell or container where we can store our data.
+//Accessing those data is as simple as referencing the variable name.
 
-//We are usually either dealing with constant variables or intechangable variables. If we are dealing with variables
-//that their value is not changing throughout our code then we use the const key word.
+//To properly do this; we first need to declare the variable. This helps the browser allocate some memory for each variable.
+//To declare a variable we have to either use the const or let key word.
+//From there we can either assign them a value or leave the variable empty
 
+
+//Let's create a varialbe with const
 const variableName1 = 1;
-const variableName2 = 2;
-
+//And print its value
 console.log(variableName1); //Prints 1
+
 //What happens if we change the value tho?
-variableName1 = 3;
-console.log(variableName1); //This will not work, variableName1 is const and it's value must not change
+variableName1 = 2;
+console.log(variableName1); //This will not work
+//Variables declared with const are meant to have constant values. Altering them is not allowed.
 
-//If dealing with interchangable variables then the keyword let should be used instead. Let works similar with
-//const
 
+//If dealing with interchangable variables then let is a better choice
+//Lets create a variable with let
 let interchangableVariable1 = 1;
-let interchangableVariable2 = 2;
-
 console.log(interchangableVariable1); //Prints 1
-interchangableVariable1 = 3;
-console.log(interchangableVariable1); //Prints 3
+//And change its value
+interchangableVariable1 = 2;
+console.log(interchangableVariable1); //Prints 2
+//Let solves all the problems const brings to the table
 
 
-//What happens if we don't assing a value to our variables at first? This still works fine 
-//provided we do assign a value to them before we use them!
-
+//So far we have both declared and assigned a value to our variables, but the later isn't required
+//Let's only declare a value
 let emptyVariable1;
-const emptyVariable2;
+//What happens if we print its value?
+console.log(emptyVariable1); //Prints undefined
+//Our variable will remain undefined until we introduce a value to it
 
-console.log(emptyVariable1, emptyVariable2); //Prints undefined
+/*
+    Few additional points include:
+    -avoid the var keyword like plague
+    -follow naming conventions on your variables (camelCases is most common in javascript)
+    -try to use memorable words to your variable. They need to be both short and explain what they are used for
+*/
