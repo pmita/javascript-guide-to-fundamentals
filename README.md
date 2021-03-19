@@ -24,3 +24,28 @@ const variableName1 = 1;
 //And print its value
 console.log(variableName1); //Prints 1
 ```
+
+Basic operators
+
+```
+//Operators are some of the basic functionality that we can apply to our variables.
+//Operators simply represent a collection of symbols that allows to alter our variable values.
+//Similar to what calculator symbols do
+
+
+//Let's create a variable
+//And go over the basic operators
+let number = 10;
+//Let's add 2 to it
+console.log(number + 2); //Prints 12
+//Substract 2
+console.log(number - 2); //Prints 8
+//Multiply by 2
+console.log(number * 2); //Prints 20
+//Divide by 2
+console.log(number / 2); //Prints 5
+//Find the reminder of the division by 3
+console.log(number % 3); //Prints 1
+//Find the exponent of 10^2
+console.log(number ** 2); //Prints 100
+```

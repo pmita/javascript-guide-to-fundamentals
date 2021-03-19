@@ -1,11 +1,12 @@
-//Javascript operators are a collection of symbols that allows us to perform
-//an operation with/ to variables. Similar to calculator symbols.
+//Well now we know how to introduce variables, but what can we do with them?
+//Operators are some of the basic functionality that we can apply to our variables.
+//Operators simply represent a collection of symbols that allows to alter our variable values.
+//Similar to what calculator symbols do
 
 
 //Let's create a variable
+//And go over the basic operators
 let number = 10;
-
-//Basic operators
 //Let's add 2 to it
 console.log(number + 2); //Prints 12
 //Substract 2
@@ -23,12 +24,12 @@ console.log(number ** 2); //Prints 100
 number = 10;
 number = number + 1;
 console.log(number); //Prints 11;
-//Or for simplicity
-number--;
+//To simplify our code we can use the increment operator
+number++;
 console.log(number); //Prints 11 as well;
 
 
-//Adding larger numbers
+//We can increment by a bigger amout
 number = 10;
 number = number + 20;
 console.log(number); //Prints 30
@@ -36,6 +37,11 @@ console.log(number); //Prints 30
 number += 20;
 console.log(number); //Prints 30
 
-//Similarly we can use decreasing operators
-//number --;
-//number -= 5;
+//This operator primarily apply to numbers but are not necessarily limited to
+
+/*
+    Please note that our increment operaton can be switched to a decreasing operator as well
+    number--; will reduce by 1
+    number -=5; will reduce by 5
+*/
+
