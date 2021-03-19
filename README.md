@@ -49,3 +49,20 @@ console.log(number % 3); //Prints 1
 //Find the exponent of 10^2
 console.log(number ** 2); //Prints 100
 ```
+
+Data types
+
+```
+//Now we are ready to go over primitive data types, which represent that different
+//types of data our variables can hold as their value
+
+//The main ones include 
+
+//Numbers
+const day = 5;
+console.log(typeof day); //Prints number
+//Strings
+const name = 'Panos';
+console.log(typeof name); //Prints string
+//Booleans represents either true or false value
+```
